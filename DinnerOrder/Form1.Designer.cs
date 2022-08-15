@@ -49,15 +49,17 @@
             this.panel1.Controls.Add(this.MainPageButton);
             this.panel1.Location = new System.Drawing.Point(51, 198);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(234, 464);
+            this.panel1.Size = new System.Drawing.Size(247, 444);
             this.panel1.TabIndex = 0;
             // 
             // AdressButton
             // 
             this.AdressButton.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.AdressButton.Location = new System.Drawing.Point(0, 274);
+            this.AdressButton.Image = ((System.Drawing.Image)(resources.GetObject("AdressButton.Image")));
+            this.AdressButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.AdressButton.Location = new System.Drawing.Point(0, 275);
             this.AdressButton.Name = "AdressButton";
-            this.AdressButton.Size = new System.Drawing.Size(234, 118);
+            this.AdressButton.Size = new System.Drawing.Size(244, 109);
             this.AdressButton.TabIndex = 2;
             this.AdressButton.Text = "Adres";
             this.AdressButton.UseVisualStyleBackColor = false;
@@ -65,21 +67,26 @@
             // MenuButton
             // 
             this.MenuButton.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.MenuButton.Image = ((System.Drawing.Image)(resources.GetObject("MenuButton.Image")));
             this.MenuButton.Location = new System.Drawing.Point(0, 135);
             this.MenuButton.Name = "MenuButton";
-            this.MenuButton.Size = new System.Drawing.Size(234, 118);
+            this.MenuButton.Size = new System.Drawing.Size(244, 112);
             this.MenuButton.TabIndex = 1;
-            this.MenuButton.Text = "Menüler";
+            this.MenuButton.Text = "     Menüler";
+            this.MenuButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.MenuButton.UseVisualStyleBackColor = false;
             // 
             // MainPageButton
             // 
             this.MainPageButton.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.MainPageButton.Image = ((System.Drawing.Image)(resources.GetObject("MainPageButton.Image")));
+            this.MainPageButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.MainPageButton.Location = new System.Drawing.Point(0, 0);
             this.MainPageButton.Name = "MainPageButton";
-            this.MainPageButton.Size = new System.Drawing.Size(234, 118);
+            this.MainPageButton.Size = new System.Drawing.Size(247, 110);
             this.MainPageButton.TabIndex = 0;
-            this.MainPageButton.Text = "Ana Sayfa";
+            this.MainPageButton.Text = "     Ana Sayfa";
+            this.MainPageButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.MainPageButton.UseVisualStyleBackColor = false;
             // 
             // panel2
@@ -105,11 +112,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Rockwell", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(267, 30);
+            this.label1.Location = new System.Drawing.Point(303, 37);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(140, 47);
+            this.label1.Size = new System.Drawing.Size(814, 47);
             this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
+            this.label1.Text = "Karnınız Acıktığında Siparişiniz Kapınızda";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
